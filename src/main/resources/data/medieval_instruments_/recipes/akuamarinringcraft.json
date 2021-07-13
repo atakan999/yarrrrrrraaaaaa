@@ -1,0 +1,42 @@
+{
+  "group": "akuaring",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "medieval_instruments_:akuamarin"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "medieval_instruments_:akuamarin"
+    },
+    "4": {
+      "item": "medieval_instruments_:metalring"
+    },
+    "5": {
+      "item": "medieval_instruments_:akuamarin"
+    },
+    "6": {
+      "item": "minecraft:leather"
+    },
+    "7": {
+      "item": "medieval_instruments_:akuamarin"
+    },
+    "8": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "medieval_instruments_:akuamarinring",
+    "count": 1
+  }
+}

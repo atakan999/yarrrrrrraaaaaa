@@ -1,0 +1,91 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Akuamarin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akuamarin"
+    },
+    {
+      "name": "Akuamarinblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akuamarinblock"
+    },
+    {
+      "name": "Metalring",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metalring"
+    },
+    {
+      "name": "Akuamarinring",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akuamarinring"
+    },
+    {
+      "name": "Metalringcraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metalringcraft"
+    },
+    {
+      "name": "Akuamarinringcraft",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akuamarinringcraft"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.medieval_instruments_.akuamarinblock": "Akuamarinblock",
+      "item.medieval_instruments_.akuamarin": "Akuamarin",
+      "item.medieval_instruments_.metalring": "Metalring",
+      "item.medieval_instruments_.akuamarinring": "Akuamarinring"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "medieval_instruments_",
+    "modName": "medieval instruments ",
+    "version": "1.0.0",
+    "author": "ataka, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.medievalinstruments",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
