@@ -1,0 +1,42 @@
+{
+  "group": "medieval_instruments_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "medieval_instruments_:yakut"
+    },
+    "1": {
+      "item": "medieval_instruments_:yakut"
+    },
+    "2": {
+      "item": "medieval_instruments_:yakut"
+    },
+    "3": {
+      "item": "medieval_instruments_:yakut"
+    },
+    "4": {
+      "item": "medieval_instruments_:metalring"
+    },
+    "5": {
+      "item": "medieval_instruments_:yakut"
+    },
+    "6": {
+      "item": "medieval_instruments_:yakut"
+    },
+    "7": {
+      "item": "medieval_instruments_:yakut"
+    },
+    "8": {
+      "item": "medieval_instruments_:yakut"
+    }
+  },
+  "result": {
+    "item": "medieval_instruments_:yakutring",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "medieval_instruments_:blocks/431",
+    "up": "medieval_instruments_:blocks/431",
+    "north": "medieval_instruments_:blocks/431",
+    "east": "medieval_instruments_:blocks/431",
+    "south": "medieval_instruments_:blocks/431",
+    "west": "medieval_instruments_:blocks/431",
+    "particle": "medieval_instruments_:blocks/431"
+  }
+}

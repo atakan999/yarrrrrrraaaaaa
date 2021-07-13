@@ -1,0 +1,20 @@
+{
+  "group": "medieval_instruments_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "medieval_instruments_:linyit"
+    },
+    "1": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "result": {
+    "item": "medieval_instruments_:arrowfire",
+    "count": 1
+  }
+}

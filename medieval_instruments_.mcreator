@@ -54,6 +54,123 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "akuamarinringcraft"
+    },
+    {
+      "name": "Linyit",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "linyit"
+    },
+    {
+      "name": "Linyitblock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "linyitblock"
+    },
+    {
+      "name": "Arrowfire",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arrowfire"
+    },
+    {
+      "name": "Firearrow",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firearrow"
+    },
+    {
+      "name": "Yakut",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yakut"
+    },
+    {
+      "name": "Yakutblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yakutblock"
+    },
+    {
+      "name": "Yakutring",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yakutring"
+    },
+    {
+      "name": "Yakutringcraft",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yakutringcraft"
+    },
+    {
+      "name": "Florit",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "florit"
+    },
+    {
+      "name": "Floritblock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floritblock"
+    },
+    {
+      "name": "Floritsword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floritsword"
+    },
+    {
+      "name": "Demircubuk",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demircubuk"
+    },
+    {
+      "name": "Floritswordcraft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floritswordcraft"
     }
   ],
   "variable_elements": [],
@@ -61,9 +178,19 @@
   "language_map": {
     "en_us": {
       "block.medieval_instruments_.akuamarinblock": "Akuamarinblock",
-      "item.medieval_instruments_.akuamarin": "Akuamarin",
+      "item.medieval_instruments_.demircubuk": "Demircubuk",
+      "block.medieval_instruments_.yakutblock": "Yakutblock",
+      "block.medieval_instruments_.floritblock": "Floritblock",
+      "item.medieval_instruments_.floritsword": "Floritsword",
+      "item.medieval_instruments_.linyit": "Linyit",
+      "item.medieval_instruments_.akuamarinring": "Akuamarinring",
       "item.medieval_instruments_.metalring": "Metalring",
-      "item.medieval_instruments_.akuamarinring": "Akuamarinring"
+      "block.medieval_instruments_.linyitblock": "Linyitblock",
+      "item.medieval_instruments_.akuamarin": "Akuamarin",
+      "item.medieval_instruments_.yakutring": "Yakutring",
+      "item.medieval_instruments_.florit": "Florit",
+      "item.medieval_instruments_.yakut": "Yakut",
+      "item.medieval_instruments_.arrowfire": "Arrowfire"
     }
   },
   "foldersRoot": {

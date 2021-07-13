@@ -1,0 +1,24 @@
+{
+  "group": "medieval_instruments_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "medieval_instruments_:florit"
+    },
+    "1": {
+      "item": "medieval_instruments_:florit"
+    },
+    "2": {
+      "item": "medieval_instruments_:demircubuk"
+    }
+  },
+  "result": {
+    "item": "medieval_instruments_:floritsword",
+    "count": 1
+  }
+}

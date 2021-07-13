@@ -1,6 +1,16 @@
 {
   "block.medieval_instruments_.akuamarinblock": "Akuamarinblock",
-  "item.medieval_instruments_.akuamarin": "Akuamarin",
+  "item.medieval_instruments_.demircubuk": "Demircubuk",
+  "block.medieval_instruments_.yakutblock": "Yakutblock",
+  "block.medieval_instruments_.floritblock": "Floritblock",
+  "item.medieval_instruments_.floritsword": "Floritsword",
+  "item.medieval_instruments_.linyit": "Linyit",
+  "item.medieval_instruments_.akuamarinring": "Akuamarinring",
   "item.medieval_instruments_.metalring": "Metalring",
-  "item.medieval_instruments_.akuamarinring": "Akuamarinring"
+  "block.medieval_instruments_.linyitblock": "Linyitblock",
+  "item.medieval_instruments_.akuamarin": "Akuamarin",
+  "item.medieval_instruments_.yakutring": "Yakutring",
+  "item.medieval_instruments_.florit": "Florit",
+  "item.medieval_instruments_.yakut": "Yakut",
+  "item.medieval_instruments_.arrowfire": "Arrowfire"
 }
