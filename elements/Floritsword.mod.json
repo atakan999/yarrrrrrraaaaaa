@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "floritsword",
+    "texture": "earthelementsword",
     "customModelName": "Normal",
-    "name": "Floritsword",
+    "name": "waterelementsword ",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
@@ -19,7 +19,11 @@
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Florit"
+      }
+    ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

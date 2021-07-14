@@ -6,6 +6,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.gen.feature.template.RuleTest;
@@ -59,7 +60,8 @@ public class LinyitblockBlock extends MedievalInstrumentsModElements.ModElement 
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 20f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("linyitblock");
 		}
 
@@ -68,7 +70,7 @@ public class LinyitblockBlock extends MedievalInstrumentsModElements.ModElement 
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(LinyitItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(LinyitItem.block, (int) (2)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

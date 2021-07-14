@@ -12,7 +12,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.medievalinstruments.item.AkuamarinringItem;
+import net.mcreator.medievalinstruments.item.YakutringItem;
 import net.mcreator.medievalinstruments.MedievalInstrumentsModElements;
 import net.mcreator.medievalinstruments.MedievalInstrumentsMod;
 
@@ -20,24 +20,24 @@ import java.util.Map;
 import java.util.HashMap;
 
 @MedievalInstrumentsModElements.ModElement.Tag
-public class AquaProcedure extends MedievalInstrumentsModElements.ModElement {
-	public AquaProcedure(MedievalInstrumentsModElements instance) {
-		super(instance, 19);
+public class YakuttProcedure extends MedievalInstrumentsModElements.ModElement {
+	public YakuttProcedure(MedievalInstrumentsModElements instance) {
+		super(instance, 20);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				MedievalInstrumentsMod.LOGGER.warn("Failed to load dependency entity for procedure Aqua!");
+				MedievalInstrumentsMod.LOGGER.warn("Failed to load dependency entity for procedure Yakutt!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(AkuamarinringItem.block, (int) (1)))
+				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(YakutringItem.block, (int) (1)))
 				: false)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WATER_BREATHING, (int) 999, (int) 0, (false), (true)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, (int) 5, (int) 10, (false), (true)));
 		}
 	}
 

@@ -2,6 +2,7 @@
 package net.mcreator.medievalinstruments.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -35,7 +36,8 @@ public class AkuamarinblockBlock extends MedievalInstrumentsModElements.ModEleme
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).setLightLevel(s -> 0).harvestLevel(3)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("akuamarinblock");
 		}
 
