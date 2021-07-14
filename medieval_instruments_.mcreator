@@ -206,6 +206,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "grampleore"
+    },
+    {
+      "name": "Gramplecubuk",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gramplecubuk"
+    },
+    {
+      "name": "Gramplecubukcraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gramplecubukcraft"
     }
   ],
   "variable_elements": [],
@@ -227,6 +245,7 @@
       "item.medieval_instruments_.florit": "Florit",
       "block.medieval_instruments_.grampleore": "Grample Ore",
       "item.medieval_instruments_.yakut": "Yakut",
+      "item.medieval_instruments_.gramplecubuk": "Gramplecubuk",
       "item.medieval_instruments_.arrowfire": "Arrowfire"
     }
   },
