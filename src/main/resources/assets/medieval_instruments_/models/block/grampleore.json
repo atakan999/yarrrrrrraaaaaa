@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "medieval_instruments_:blocks/ore",
+    "up": "medieval_instruments_:blocks/ore",
+    "north": "medieval_instruments_:blocks/ore",
+    "east": "medieval_instruments_:blocks/ore",
+    "south": "medieval_instruments_:blocks/ore",
+    "west": "medieval_instruments_:blocks/ore",
+    "particle": "medieval_instruments_:blocks/ore"
+  }
+}
